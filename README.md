@@ -7,7 +7,7 @@ Informations about cogs as well as about retrieving your bot Token are written b
 !kick <br>
 !ban <br>
 !unban <br>
-<b>Web Scrapping</b> - Requires additional module, BeautifulSoup!
+<b>Web Scrapping</b> - (Requires additional module, BeautifulSoup!) <br>
 !trending <br>
 !yt <br>
 
