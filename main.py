@@ -27,7 +27,8 @@ async def ping(ctx):
     await ctx.send(f'Pong! Bot is working with latency {round(client.latency *1000)}ms') # Can personalize 
     # command for pinging
 
-for fname in os.listdir('C:\\Users\\lukek\\OneDrive\\Python\\Pawlacz_bot\\cogs'):
+for fname in os.listdir(' '): #Insert path to your cogs file. For more info about cogs, see README
     if fname.endswith('.py'):
         client.load_extension(f'cogs.{fname[:-3]}')
+       
 client.run(' ') # Insert your key here
