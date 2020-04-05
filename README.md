@@ -7,6 +7,9 @@ Informations about cogs as well as about retrieving your bot Token are written b
 !kick <br>
 !ban <br>
 !unban <br>
+<b>Web Scrapping</b> - Requires additional module, BeautifulSoup!
+!trending <br>
+!yt <br>
 
 # Installing discord.py
 Python 3.5.3 or higher is required
