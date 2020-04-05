@@ -9,7 +9,7 @@ class basic(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        print('Jan_Pawlacz is online and active')
+        print('Bot is online and active')
         # Message for admin that bot is running
         await self.client.change_presence(status=discord.Status.idle,
                                           activity=discord.Game('your mum'))
