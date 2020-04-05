@@ -32,7 +32,6 @@ class webScrapping(commands.Cog):
     def __init__(self, client):
         self.client = client
 
-    # @tasks.loop(hours=1)
     @commands.command()
     async def trending(self, message):
         links = []
